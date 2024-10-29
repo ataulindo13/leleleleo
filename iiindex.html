@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Texto com Imagens</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background: #f4f4f4;
+        }
+        .container {
+            position: relative;
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            opacity: 0.5; /* Ajuste a opacidade da imagem de fundo */
+            z-index: -1; /* Coloca a imagem atrás do texto */
+        }
+        h1, p {
+            position: relative; /* Garante que o texto fique acima das imagens */
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <!-- Imagens de fundo -->
+    <img src="https://imgur.com/WAcmea0" alt="Imagem 1">
+    <img src="https://imgur.com/nnL5uWK" alt="Imagem 2">
+    <img src="https://imgur.com/emxfwyr" alt="Imagem 3">
+    <img src="https://imgur.com/JlgILQU" alt="Imagem 4">
+    
+    <!-- Texto -->
+    <h1>Uma Mensagem Especial</h1>
+    <p>
+        Eu queria muito que tivesse uma forma de te mostrar como minha mente funciona em relação a você. Você é minha princesa. Eu daria o mundo pra você. Só existe você na minha cabeça. Você vive dizendo que eu bebo e não sei o que e dou valor pra isso. E sim, eu fosto de sair de casa, porque você sabe como é problemática minha casa.
+    </p>
+    <p>
+        Eu me identifico muito mais com qualquer estranho na rua do que com as pessoas que eu convivo. Eu bebo porque me faz acalmar e pensar, sabe? Não de uma forma exagerada, mas o suficiente pra eu não surtar. Eu tive que aprender muita coisa ruim desde cedo, amor, e você estar do meu lado sempre tirou um peso enorme disso.
+    </p>
+    <p>
+        Eu não consigo mais escrever porque estou muito mal, mas quero que você saiba que você é a princesa mais linda do mundo, a mulher mais incrível que eu já conheci, a dona do meu coração, a mãe dos meus filhos. E pode ter certeza que se você ainda me der esse 0,01%, eu vou virar o jogo e nossa história vai ser linda. Não precisa acontecer agora, mas eu vou te provar.
+    </p>
+</div>
+
+</body>
+</html>
